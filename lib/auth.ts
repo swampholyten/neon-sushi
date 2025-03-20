@@ -1,16 +1,30 @@
+import { config } from "dotenv";
 import { betterAuth } from "better-auth";
 import { drizzleAdapter } from "better-auth/adapters/drizzle";
 import { db } from "./db";
+import * as schema from "@/lib/db/schema";
+
+config({ path: ".env.local" });
+
+const { GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET } = process.env;
+if (!GITHUB_CLIENT_ID || !GITHUB_CLIENT_SECRET) {
+  throw new Error(
+    "GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET must be provided in the environment variables"
+  );
+}
 
 export const auth = betterAuth({
   database: drizzleAdapter(db, {
     provider: "pg",
+    schema: schema,
   }),
   emailAndPassword: {
     enabled: true,
   },
-  github: {
-    clientId: process.env.GITHUB_CLIENT_ID,
-    clientSecret: process.env.GITHUB_CLIENT_SECRET,
+  socialProviders: {
+    github: {
+      clientId: GITHUB_CLIENT_ID,
+      clientSecret: GITHUB_CLIENT_SECRET,
+    },
   },
 });
