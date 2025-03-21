@@ -22,7 +22,7 @@
     "dotenv": "^16.4.7",
     "drizzle-orm": "^0.40.1",
     "lucide-react": "^0.483.0",
-    "next": "15.2.3",
+    "next": "^15.3.0-canary.17",
     "pg": "^8.14.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

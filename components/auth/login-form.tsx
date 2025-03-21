@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { GithubIcon } from "lucide-react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
@@ -26,6 +25,9 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
+import GithubOauthButton from "./github-button";
+import { authClient } from "@/lib/auth-client";
+import { fetchCallback } from "@/lib/utils";
 
 const loginFormSchema = z.object({
   email: z.string().email({ message: "Please enter a valid email address" }),
@@ -46,17 +48,14 @@ export const LoginForm = () => {
   });
 
   async function onSubmit(values: LoginFormValues) {
-    setIsLoading(true);
-
-    try {
-      console.log(values);
-
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-    } catch (error) {
-      console.error("Login failed:", error);
-    } finally {
-      setIsLoading(false);
-    }
+    await authClient.signIn.email(
+      {
+        email: values.email,
+        password: values.password,
+        callbackURL: "/dashboard",
+      },
+      fetchCallback({ setIsLoading })
+    );
   }
 
   return (
@@ -129,17 +128,7 @@ export const LoginForm = () => {
             </div>
           </div>
 
-          <Button
-            variant="outline"
-            className="w-full mt-4 flex items-center gap-2"
-            disabled={isLoading}
-            onClick={() => {
-              // Handle GitHub login
-            }}
-          >
-            <GithubIcon className="h-4 w-4" />
-            GitHub
-          </Button>
+          <GithubOauthButton />
         </div>
       </CardContent>
       <CardFooter className="flex justify-center">

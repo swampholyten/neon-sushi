@@ -28,6 +28,7 @@ import {
 } from "@/components/ui/form";
 import { authClient } from "@/lib/auth-client";
 import GithubOauthButton from "./github-button";
+import { fetchCallback } from "@/lib/utils";
 
 // Define the form schema with Zod
 const signupFormSchema = z.object({
@@ -58,7 +59,6 @@ type SignupFormValues = z.infer<typeof signupFormSchema>;
 export const SignupForm = () => {
   const [isLoading, setIsLoading] = useState(false);
 
-  // Initialize the form with react-hook-form and zod resolver
   const form = useForm<SignupFormValues>({
     resolver: zodResolver(signupFormSchema),
     defaultValues: {
@@ -68,24 +68,16 @@ export const SignupForm = () => {
     },
   });
 
-  // Define the submit handler
   async function onSubmit(values: SignupFormValues) {
-    setIsLoading(true);
-
-    try {
-      // Here you would typically call your registration API
-      console.log(values);
-
-      // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-
-      // Handle successful signup
-    } catch (error) {
-      // Handle error
-      console.error("Signup failed:", error);
-    } finally {
-      setIsLoading(false);
-    }
+    await authClient.signUp.email(
+      {
+        name: values.username,
+        email: values.email,
+        password: values.password,
+        callbackURL: "/dashboard",
+      },
+      fetchCallback({ setIsLoading })
+    );
   }
 
   return (
