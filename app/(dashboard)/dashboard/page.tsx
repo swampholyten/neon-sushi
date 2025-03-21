@@ -1,5 +1,7 @@
+import { ModeToggle } from "@/components/mode-toggle";
+
 const Dashboard = () => {
-  return <div>Dashboard</div>;
+  return <ModeToggle />;
 };
 
 export default Dashboard;
