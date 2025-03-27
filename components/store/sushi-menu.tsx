@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, use } from "react";
+import { useState, use, useRef } from "react";
 import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 
@@ -17,7 +17,9 @@ import { Badge } from "@/components/ui/badge";
 import { toast } from "sonner";
 import { Category, Product } from "@/lib/db/schema";
 import { addProductToCart } from "@/lib/db/queries";
-import { useRouter } from "next/navigation";
+import { useCart } from "@/components/providers/cart-provider";
+import { formatWord } from "@/lib/utils";
+import debounce from "lodash.debounce";
 
 interface SushiMenuProps {
   productsPromise: Promise<Product[]>;
@@ -30,15 +32,33 @@ export function SushiMenu({
 }: SushiMenuProps) {
   const products = use(productsPromise);
   const categories = use(categoriesPromise);
-  const router = useRouter();
+  const { addItem } = useCart((state) => ({ addItem: state.addItem }));
 
   const [filter, setFilter] = useState("all");
 
+  const debouncedAddProductRef = useRef(
+    debounce(async (product: Product) => {
+      try {
+        await addProductToCart(product);
+      } catch (error) {
+        console.error("Add product to cart failed:", error);
+      }
+    }, 1000)
+  );
+
   const handleAddToCart = async (product: Product) => {
-    await addProductToCart(product);
+    addItem({
+      productId: product.id,
+      name: product.name,
+      description: product.description,
+      price: Number(product.price),
+      image: product.image,
+      quantity: 1,
+    });
 
     toast.success(`${product.name} has been added to your cart.`);
-    router.refresh();
+
+    debouncedAddProductRef.current(product);
   };
 
   const filteredProducts =
@@ -70,7 +90,7 @@ export function SushiMenu({
                   key={category.id}
                   value={category.name.toLowerCase()}
                 >
-                  {category.name}
+                  {formatWord(category.name)}
                 </DropdownMenuRadioItem>
               ))}
             </DropdownMenuRadioGroup>
@@ -91,7 +111,9 @@ export function SushiMenu({
         return (
           <div key={category.id} className="space-y-4">
             <div className="flex items-center gap-2">
-              <h4 className="text-xl font-semibold">{category.name}</h4>
+              <h4 className="text-xl font-semibold">
+                {formatWord(category.name)}
+              </h4>
               <Badge variant="outline">{categoryProducts.length}</Badge>
             </div>
 
@@ -106,7 +128,9 @@ export function SushiMenu({
                     className="aspect-square object-cover w-full"
                   />
                   <CardContent className="p-4">
-                    <h5 className="font-semibold">{product.name}</h5>
+                    <h5 className="font-semibold">
+                      {formatWord(product.name)}
+                    </h5>
                     <p className="text-sm text-gray-500">
                       {product.description}
                     </p>

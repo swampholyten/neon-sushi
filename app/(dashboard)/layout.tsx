@@ -1,9 +1,10 @@
+import { CartProvider } from "@/components/providers/cart-provider";
 import { ReactNode } from "react";
 
 const DashboardLayout = ({ children }: { children: ReactNode }) => {
   return (
     <>
-      <div>{children}</div>; ;
+      <CartProvider>{children}</CartProvider>; ;
     </>
   );
 };

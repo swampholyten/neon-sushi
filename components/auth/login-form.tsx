@@ -32,6 +32,7 @@ import { LoginFormSkeleton } from "@/components/skeletons/login-form-skeleton";
 import { toast } from "sonner";
 import { ErrorContext } from "better-auth/client";
 import { getUserCart } from "@/lib/db/queries";
+import { At, Password } from "@phosphor-icons/react";
 
 const loginFormSchema = z.object({
   email: z.string().email({ message: "Please enter a valid email address" }),
@@ -73,7 +74,7 @@ export const LoginForm = () => {
   return isLoading ? (
     <LoginFormSkeleton />
   ) : (
-    <Card className="w-full max-w-md mx-auto">
+    <Card className="w-full">
       <CardHeader>
         <CardTitle className="text-2xl font-bold text-center">Login</CardTitle>
         <CardDescription className="text-center">
@@ -82,7 +83,7 @@ export const LoginForm = () => {
       </CardHeader>
       <CardContent>
         <Form {...form}>
-          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
             <FormField
               control={form.control}
               name="email"
@@ -90,12 +91,16 @@ export const LoginForm = () => {
                 <FormItem>
                   <FormLabel>Email</FormLabel>
                   <FormControl>
-                    <Input
-                      placeholder="name@example.com"
-                      type="email"
-                      disabled={isLoading}
-                      {...field}
-                    />
+                    <div className="relative">
+                      <At className="absolute left-3 top-1/2 -translate-y-1/2 size-4" />
+                      <Input
+                        placeholder="name@sushi.com"
+                        type="email"
+                        disabled={isLoading}
+                        {...field}
+                        className="pl-10 text-xs md:h-10"
+                      />
+                    </div>
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -117,7 +122,15 @@ export const LoginForm = () => {
                     </Link>
                   </div>
                   <FormControl>
-                    <Input type="password" disabled={isLoading} {...field} />
+                    <div className="relative">
+                      <Password className="absolute left-3 top-1/2 -translate-y-1/2 size-4" />
+                      <Input
+                        type="password"
+                        disabled={isLoading}
+                        {...field}
+                        className="pl-10 text-xs md:h-10"
+                      />
+                    </div>
                   </FormControl>
                   <FormMessage />
                 </FormItem>

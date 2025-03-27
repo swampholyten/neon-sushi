@@ -32,6 +32,7 @@ import { SignupFormSkeleton } from "@/components/skeletons/signup-form-skeleton"
 import { toast } from "sonner";
 import { ErrorContext } from "better-auth/client";
 import { getUserCart } from "@/lib/db/queries";
+import { At, Password, UserCheck } from "@phosphor-icons/react";
 
 const signupFormSchema = z.object({
   username: z
@@ -92,7 +93,7 @@ export const SignupForm = () => {
   return isLoading ? (
     <SignupFormSkeleton />
   ) : (
-    <Card className="w-full max-w-md mx-auto">
+    <Card className="w-full">
       <CardHeader>
         <CardTitle className="text-2xl font-bold text-center">
           Sign Up
@@ -111,11 +112,15 @@ export const SignupForm = () => {
                 <FormItem>
                   <FormLabel>Username</FormLabel>
                   <FormControl>
-                    <Input
-                      placeholder="johndoe"
-                      disabled={isLoading}
-                      {...field}
-                    />
+                    <div className="relative">
+                      <UserCheck className="absolute left-3 top-1/2 -translate-y-1/2 size-4" />
+                      <Input
+                        placeholder="johndoe"
+                        disabled={isLoading}
+                        {...field}
+                        className="pl-10 text-xs md:h-10"
+                      />
+                    </div>
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -129,12 +134,16 @@ export const SignupForm = () => {
                 <FormItem>
                   <FormLabel>Email</FormLabel>
                   <FormControl>
-                    <Input
-                      placeholder="name@example.com"
-                      type="email"
-                      disabled={isLoading}
-                      {...field}
-                    />
+                    <div className="relative">
+                      <At className="absolute left-3 top-1/2 -translate-y-1/2 size-4" />
+                      <Input
+                        placeholder="name@sushi.com"
+                        type="email"
+                        disabled={isLoading}
+                        {...field}
+                        className="pl-10 text-xs md:h-10"
+                      />
+                    </div>
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -148,7 +157,15 @@ export const SignupForm = () => {
                 <FormItem>
                   <FormLabel>Password</FormLabel>
                   <FormControl>
-                    <Input type="password" disabled={isLoading} {...field} />
+                    <div className="relative">
+                      <Password className="absolute left-3 top-1/2 -translate-y-1/2 size-4" />
+                      <Input
+                        type="password"
+                        disabled={isLoading}
+                        {...field}
+                        className="pl-10 text-xs md:h-10"
+                      />
+                    </div>
                   </FormControl>
                   <FormMessage />
                 </FormItem>

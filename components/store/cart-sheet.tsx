@@ -1,5 +1,14 @@
 "use client";
 
+import { useRef, useEffect, useTransition } from "react";
+import debounce from "lodash.debounce";
+import { useCart } from "@/components/providers/cart-provider";
+import {
+  updateCartItemQuantity,
+  removeProductFromCart,
+  clearCart as clearCartAction,
+  getUserCartItems,
+} from "@/lib/db/queries";
 import { ShoppingCart, Minus, Plus, Trash2 } from "lucide-react";
 import Image from "next/image";
 import {
@@ -13,75 +22,79 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
-import { useEffect, useState, useTransition } from "react";
-import {
-  clearCart as clearCartAction,
-  getUserCartItems,
-  removeProductFromCart,
-  updateCartItemQuantity,
-} from "@/lib/db/queries";
-import { useRouter } from "next/navigation";
+import { Fish } from "@phosphor-icons/react";
 
 export const CartSheet = () => {
-  const [cartItems, setCartItems] = useState<
-    {
-      productId: string;
-      name: string;
-      description: string | null;
-      price: string;
-      image: string | null;
-      quantity: number;
-    }[]
-  >([]);
+  const {
+    cart,
+    totalItems,
+    totalPrice,
+    removeFromCart,
+    updateQuantity,
+    clearCart,
+    setCartItems,
+  } = useCart((state) => ({
+    cart: state.cartItems,
+    totalItems: state.totalItems,
+    totalPrice: state.totalPrice,
+    addItem: state.addItem,
+    removeFromCart: state.removeItem,
+    updateQuantity: state.updateItemQuantity,
+    clearCart: state.clear,
+    setCartItems: state.setCartItems,
+  }));
+
   const [isPendingRemove, startRemoveTransition] = useTransition();
-  const [isPendingUpdate, startUpdateTransition] = useTransition();
   const [isPendingClear, startClearTransition] = useTransition();
-  const router = useRouter();
 
-  useEffect(() => {
-    const fetchCartItems = async () => {
-      const items = await getUserCartItems();
-      setCartItems(items);
-    };
-
-    fetchCartItems();
-  }, []);
-
-  const totalItems = cartItems.reduce((sum, item) => sum + item.quantity, 0);
-  const totalPrice = cartItems.reduce(
-    (sum, item) => sum + Number(item.price) * item.quantity,
-    0
+  const debouncedUpdateRef = useRef(
+    debounce(async (productId: string, quantity: number) => {
+      try {
+        await updateCartItemQuantity(productId, quantity);
+        // updateQuantity(productId, quantity);
+      } catch (error) {
+        console.error("Update failed:", error);
+      }
+    }, 1000)
   );
 
-  const handleRemoveFromCart = (productId: string) => {
-    startRemoveTransition(async () => {
-      await removeProductFromCart(productId);
-      const updatedCart = cartItems.filter(
-        (item) => item.productId !== productId
-      );
-      setCartItems(updatedCart);
-    });
-    router.refresh();
+  const handleUpdateQuantity = (productId: string, quantity: number) => {
+    updateQuantity(productId, quantity);
+
+    debouncedUpdateRef.current(productId, quantity);
   };
 
-  const handleUpdateQuantity = (productId: string, quantity: number) => {
-    startUpdateTransition(async () => {
-      await updateCartItemQuantity(productId, quantity);
-      const updatedCart = cartItems.map((item) =>
-        item.productId === productId ? { ...item, quantity } : item
-      );
-      setCartItems(updatedCart);
+  const handleRemoveFromCart = (productId: string) => {
+    removeFromCart(productId);
+    startRemoveTransition(async () => {
+      await removeProductFromCart(productId);
     });
-    router.refresh();
   };
 
   const handleClearCart = () => {
     startClearTransition(async () => {
       await clearCartAction();
-      setCartItems([]);
+      clearCart();
     });
-    router.refresh();
   };
+
+  useEffect(() => {
+    const fetchCartItems = async () => {
+      const items = await getUserCartItems();
+      setCartItems(
+        items.map((item) => ({
+          productId: item.productId,
+          name: item.name,
+          description: item.description,
+          price: Number(item.price),
+          image: item.image,
+          quantity: item.quantity,
+        }))
+      );
+    };
+
+    fetchCartItems();
+  }, [setCartItems]);
 
   return (
     <Sheet>
@@ -97,11 +110,16 @@ export const CartSheet = () => {
         </Button>
       </SheetTrigger>
       <SheetContent className="flex w-full flex-col sm:max-w-lg">
-        <SheetHeader className="px-1">
-          <SheetTitle>Your Cart</SheetTitle>
+        <SheetHeader className="p-4">
+          <SheetTitle>
+            <div className="flex justify-start items-center gap-4">
+              <Fish weight="duotone" className="size-6" />
+              <span className="text-xl">Your Cart</span>
+            </div>
+          </SheetTitle>
         </SheetHeader>
 
-        {cartItems.length === 0 ? (
+        {cart.length === 0 ? (
           <div className="flex h-full flex-col items-center justify-center space-y-2">
             <ShoppingCart className="h-12 w-12 text-muted-foreground" />
             <div className="text-xl font-medium">Your cart is empty</div>
@@ -111,9 +129,9 @@ export const CartSheet = () => {
           </div>
         ) : (
           <>
-            <ScrollArea className="flex-1 pr-4">
+            <ScrollArea className="flex-1 px-4">
               <div className="space-y-4 py-4">
-                {cartItems.map((item) => (
+                {cart.map((item) => (
                   <div key={item.productId} className="flex items-start gap-3">
                     <div className="w-16 h-16 rounded overflow-hidden flex-shrink-0">
                       <Image
@@ -145,7 +163,7 @@ export const CartSheet = () => {
                               Math.max(1, item.quantity - 1)
                             )
                           }
-                          disabled={item.quantity <= 1 || isPendingUpdate}
+                          disabled={item.quantity <= 1}
                         >
                           <Minus className="h-3 w-3" />
                           <span className="sr-only">Decrease quantity</span>
@@ -161,7 +179,6 @@ export const CartSheet = () => {
                               item.quantity + 1
                             )
                           }
-                          disabled={isPendingUpdate}
                         >
                           <Plus className="h-3 w-3" />
                           <span className="sr-only">Increase quantity</span>
@@ -185,7 +202,7 @@ export const CartSheet = () => {
 
             <div className="space-y-4">
               <Separator />
-              <div className="space-y-1.5">
+              <div className="space-y-1.5 px-4">
                 <div className="flex items-center justify-between">
                   <span className="text-muted-foreground">Subtotal</span>
                   <span>${totalPrice.toFixed(2)}</span>

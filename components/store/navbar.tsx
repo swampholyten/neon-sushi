@@ -1,3 +1,4 @@
+import { ModeToggle } from "@/components/mode-toggle";
 import { CartSheet } from "@/components/store/cart-sheet";
 import { SearchButton } from "@/components/store/search-button";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -22,6 +23,7 @@ const Navbar = () => {
               productsPromise={productsPromise}
               categoriesPromise={categoriesPromise}
             />
+            <ModeToggle />
           </Suspense>
           <CartSheet />
         </div>
