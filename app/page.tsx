@@ -58,7 +58,7 @@ export default function Home() {
           </div>
           <Link
             href="/store"
-            className="inline-block px-6 py-3 border rounded-full font-medium hover:bg-foreground/5 transition-colors text-center w-full max-w-[260px] text-sm mt-16"
+            className="inline-block px-6 py-3 border rounded-full font-medium hover:bg-foreground/5 transition-colors text-center w-full max-w-[260px] text-sm mt-8"
           >
             Start
           </Link>
