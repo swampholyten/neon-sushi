@@ -31,6 +31,7 @@ import { fetchCallback } from "@/lib/utils";
 import { LoginFormSkeleton } from "@/components/skeletons/login-form-skeleton";
 import { toast } from "sonner";
 import { ErrorContext } from "better-auth/client";
+import { getUserCart } from "@/lib/db/queries";
 
 const loginFormSchema = z.object({
   email: z.string().email({ message: "Please enter a valid email address" }),

@@ -83,8 +83,8 @@ export const category = pgTable("category", {
   name: text("name").notNull().unique(),
   description: text("description"),
   image: text("image"),
-  createdAt: timestamp("created_at").notNull(),
-  updatedAt: timestamp("updated_at").notNull(),
+  createdAt: timestamp("created_at").notNull().defaultNow(),
+  updatedAt: timestamp("updated_at").notNull().defaultNow(),
 });
 
 export const product = pgTable("product", {
@@ -95,8 +95,8 @@ export const product = pgTable("product", {
   categoryId: text("category_id").references(() => category.id),
   image: text("image"),
   isAvailable: boolean("is_available").notNull().default(true),
-  createdAt: timestamp("created_at").notNull(),
-  updatedAt: timestamp("updated_at").notNull(),
+  createdAt: timestamp("created_at").notNull().defaultNow(),
+  updatedAt: timestamp("updated_at").notNull().defaultNow(),
 });
 
 export const cart = pgTable("cart", {
@@ -105,26 +105,25 @@ export const cart = pgTable("cart", {
     .notNull()
     .references(() => user.id)
     .unique(),
-  createdAt: timestamp("created_at").notNull(),
-  updatedAt: timestamp("updated_at").notNull(),
+  createdAt: timestamp("created_at").notNull().defaultNow(),
+  updatedAt: timestamp("updated_at").notNull().defaultNow(),
 });
 
 export const cartItem = pgTable(
   "cart_item",
   {
-    cartId: text("cart_id")
+    userId: text("user_id")
       .notNull()
-      .references(() => cart.id),
+      .references(() => user.id),
     productId: text("product_id")
       .notNull()
       .references(() => product.id),
     quantity: integer("quantity").notNull().default(1),
-    notes: text("notes"),
-    createdAt: timestamp("created_at").notNull(),
-    updatedAt: timestamp("updated_at").notNull(),
+    createdAt: timestamp("created_at").notNull().defaultNow(),
+    updatedAt: timestamp("updated_at").notNull().defaultNow(),
   },
   (table) => ({
-    pk: primaryKey({ columns: [table.cartId, table.productId] }),
+    pk: primaryKey({ columns: [table.userId, table.productId] }),
   })
 );
 
@@ -135,8 +134,8 @@ export const order = pgTable("order", {
     .references(() => user.id),
   status: orderStatusEnum("status").notNull().default("PENDING"),
   totalPrice: decimal("total_price", { precision: 10, scale: 2 }).notNull(),
-  createdAt: timestamp("created_at").notNull(),
-  updatedAt: timestamp("updated_at").notNull(),
+  createdAt: timestamp("created_at").notNull().defaultNow(),
+  updatedAt: timestamp("updated_at").notNull().defaultNow(),
 });
 
 export const orderItem = pgTable("order_item", {
@@ -149,6 +148,11 @@ export const orderItem = pgTable("order_item", {
     .references(() => product.id),
   quantity: integer("quantity").notNull(),
   notes: text("notes"),
-  createdAt: timestamp("created_at").notNull(),
-  updatedAt: timestamp("updated_at").notNull(),
+  createdAt: timestamp("created_at").notNull().defaultNow(),
+  updatedAt: timestamp("updated_at").notNull().defaultNow(),
 });
+
+export type Category = InferSelectModel<typeof category>;
+export type Product = InferSelectModel<typeof product>;
+export type Cart = InferSelectModel<typeof cart>;
+export type CartItem = InferSelectModel<typeof cartItem>;

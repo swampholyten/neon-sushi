@@ -31,6 +31,7 @@ import { fetchCallback } from "@/lib/utils";
 import { SignupFormSkeleton } from "@/components/skeletons/signup-form-skeleton";
 import { toast } from "sonner";
 import { ErrorContext } from "better-auth/client";
+import { getUserCart } from "@/lib/db/queries";
 
 const signupFormSchema = z.object({
   username: z
@@ -80,7 +81,8 @@ export const SignupForm = () => {
         onError: (context: ErrorContext) => {
           toast.error(`${context.error.message}`);
         },
-        onSuccess: () => {
+        onSuccess: async () => {
+          await getUserCart();
           toast.success("Sign Up Successfully");
         },
       })
