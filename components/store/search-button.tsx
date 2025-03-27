@@ -17,7 +17,7 @@ import { addProductToCart } from "@/lib/db/queries";
 import { useCart } from "@/components/providers/cart-provider";
 import { formatWord } from "@/lib/utils";
 import debounce from "lodash.debounce";
-import { Fish } from "@phosphor-icons/react";
+import { Fish, ShoppingCart } from "@phosphor-icons/react";
 
 export const SearchButton = ({
   productsPromise,
@@ -80,7 +80,7 @@ export const SearchButton = ({
         <Search className="h-4 w-4 xl:mr-2" />
         <span className="hidden xl:inline-flex">Search...</span>
         <span className="sr-only">Search</span>
-        <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
+        <kbd className="pointer-events-none absolute right-1.5 top-1.5 hidden h-6 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-xs font-medium opacity-100 xl:flex">
           <span className="text-xs">⌘</span>K
         </kbd>
       </Button>
@@ -96,16 +96,17 @@ export const SearchButton = ({
                   <CommandItem
                     key={product.id}
                     onSelect={async () => await handleAddToCart(product)}
-                    className="flex items-center justify-between"
+                    className="flex items-center justify-between text-xs md:text-sm"
                   >
                     <div className="flex justify-center items-center gap-3">
                       <Fish />
                       <span>{formatWord(formatWord(product.name))}</span>
-                      <span className="ml-2 text-sm text-muted-foreground">
+                      <span className="ml-2 text-muted-foreground">
                         ${product.price}
                       </span>
                     </div>
-                    <span className="text-xs text-muted-foreground">
+                    <ShoppingCart className="md:hidden" />
+                    <span className="text-xs text-muted-foreground hidden md:block">
                       Add to cart
                     </span>
                   </CommandItem>

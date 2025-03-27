@@ -1,40 +1,41 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ModeToggle } from "@/components/mode-toggle";
-import { DynamicImagesLayout } from "@/components/dynamic-image-layout";
+import { DynamicImagesLayout } from "@/components/landing/dynamic-image-layout";
 
 export default function Home() {
   return (
     <div className={`min-h-screen flex items-center justify-center md:px-4`}>
-      <div className="w-full h-full flex flex-col md:flex-row items-start gap-8 md:gap-8">
+      <div className="w-full h-full flex flex-col md:flex-row items-start gap-8">
         {/* Left Content */}
-        <div className="w-full md:w-[260px] flex-shrink-0 flex items-center flex-col justify-between h-full">
-          <div className="flex flex-col gap-16 pt-8 md:pt-0">
+        <div className="w-full md:w-[400px] flex-shrink-0 flex items-center flex-col justify-between h-full">
+          <div className="flex flex-col gap-4 md:gap-16 justify-around pt-8 md:pt-0">
             <h1
-              className={`text-4xl md:text-6xl font-light italic tracking-tighter leading-[130%]`}
+              className={`text-5xl md:text-6xl font-light italic tracking-tighter leading-[130%]`}
             >
               Next Store
             </h1>
             <div
-              className={`flex flex-col gap-12 text-sm font-light max-w-[300px]`}
+              className={`flex flex-col gap-12 text-sm md:text-base font-light max-w-[300px]`}
             >
               <div className="space-y-6">
                 <div className="h-px w-full" />
                 <p>
-                  Welcome to The Corner Nook, your neighborhood haven for
-                  everyday essentials and hidden treasures. Step inside to
-                  discover rows of freshly baked bread, local organic produce,
-                  and hand-crafted decor that sparks conversation
+                  Welcome to Next Sushi, an elegant sanctuary where the art of
+                  Japanese cuisine meets modern dining. Step into our serene
+                  space adorned with minimalist décor, warm bamboo elements, and
+                  the rhythmic precision of our master sushi chefs.
                 </p>
                 <p>
-                  The warm lighting and rustic wooden shelves create an inviting
-                  atmosphere where every item tells a story. Whether you're
-                  stopping by for your morning coffee or hunting for that unique
-                  gift.
+                  The soft ambient lighting and polished wooden counters create
+                  an intimate atmosphere where each dish is a masterpiece.
+                  Whether you're here for our premium nigiri selection or
+                  exploring our extensive all-you-can-eat menu.
                 </p>
                 <p>
-                  The Corner Nook is here to transform your everyday shopping
-                  into a delightful experience.
+                  Next Sushi invites you to immerse yourself in an unlimited
+                  journey of flavors, where traditional meets contemporary in
+                  every carefully crafted bite.
                 </p>
               </div>
             </div>

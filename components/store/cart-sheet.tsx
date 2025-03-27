@@ -23,6 +23,7 @@ import { Separator } from "@/components/ui/separator";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
 import { Fish } from "@phosphor-icons/react";
+import { formatWord } from "@/lib/utils";
 
 export const CartSheet = () => {
   const {
@@ -109,8 +110,8 @@ export const CartSheet = () => {
           <span className="sr-only">Open cart</span>
         </Button>
       </SheetTrigger>
-      <SheetContent className="flex w-full flex-col sm:max-w-lg">
-        <SheetHeader className="p-4">
+      <SheetContent className="flex w-full flex-col sm:max-w-lg gap-0 text-xs md:text-sm justify-evenly">
+        <SheetHeader>
           <SheetTitle>
             <div className="flex justify-start items-center gap-4">
               <Fish weight="duotone" className="size-6" />
@@ -129,13 +130,14 @@ export const CartSheet = () => {
           </div>
         ) : (
           <>
-            <ScrollArea className="flex-1 px-4">
+            <ScrollArea className="h-[75%] px-4">
               <div className="space-y-4 py-4">
                 {cart.map((item) => (
                   <div key={item.productId} className="flex items-start gap-3">
                     <div className="w-16 h-16 rounded overflow-hidden flex-shrink-0">
                       <Image
-                        src={item.image || "/placeholder.svg"}
+                        // src={item.image || "/placeholder.svg"}
+                        src={"/sushi/nigiri.jpeg"}
                         alt={item.name}
                         width={64}
                         height={64}
@@ -144,7 +146,9 @@ export const CartSheet = () => {
                     </div>
                     <div className="flex-1 space-y-1">
                       <div className="flex items-start justify-between">
-                        <div className="font-medium">{item.name}</div>
+                        <div className="font-medium">
+                          {formatWord(item.name)}
+                        </div>
                         <div className="font-medium">
                           ${(Number(item.price) * item.quantity).toFixed(2)}
                         </div>

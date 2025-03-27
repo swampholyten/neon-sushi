@@ -121,7 +121,8 @@ export function SushiMenu({
               {categoryProducts.map((product) => (
                 <Card key={product.id} className="overflow-hidden">
                   <Image
-                    src={product.image || "/placeholder.svg"}
+                    // src={product.image || "/placeholder.svg"}
+                    src={"/sushi/nigiri.jpeg"}
                     alt={product.name}
                     width={300}
                     height={300}

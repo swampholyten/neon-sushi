@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { ImageComponent } from "@/components/image-component";
+import { ImageComponent } from "@/components/landing/image-component";
 
 interface Frame {
   id: number;
@@ -14,64 +14,55 @@ interface Frame {
 const frames: Frame[] = [
   {
     id: 1,
-    image:
-      "https://images.unsplash.com/photo-1741807083060-39c641cd97fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzM3x8fGVufDB8fHx8fA%3D%3D",
+    image: "/sushi/nigiri.jpeg",
     defaultPos: { x: 0, y: 0, w: 4, h: 4 },
     isHovered: false,
   },
   {
     id: 2,
-    image:
-      "https://images.unsplash.com/photo-1742293603913-a61164108169?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNnx8fGVufDB8fHx8fA%3D%3D",
+    image: "/sushi/uramaki.jpeg",
     defaultPos: { x: 4, y: 0, w: 4, h: 4 },
     isHovered: false,
   },
   {
     id: 3,
-    image:
-      "https://images.unsplash.com/photo-1449247709967-d4461a6a6103?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWluaW1hbGlzdHxlbnwwfHwwfHx8MA%3D%3D",
+    image: "/sushi/tempura.jpeg",
     defaultPos: { x: 8, y: 0, w: 4, h: 4 },
     isHovered: false,
   },
   {
     id: 4,
-    image:
-      "https://images.unsplash.com/photo-1504275107627-0c2ba7a43dba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1pbmltYWxpc3R8ZW58MHx8MHx8fDA%3D",
+    image: "/sushi/sashimi.jpeg",
     defaultPos: { x: 0, y: 4, w: 4, h: 4 },
     isHovered: false,
   },
   {
     id: 5,
-    image:
-      "https://images.unsplash.com/photo-1491406213019-05b162a72c20?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG1pbmltYWxpc3R8ZW58MHx8MHx8fDA%3D",
+    image: "/sushi/onigiri.jpeg",
     defaultPos: { x: 4, y: 4, w: 4, h: 4 },
     isHovered: false,
   },
   {
     id: 6,
-    image:
-      "https://images.unsplash.com/photo-1576858978851-fadc54c3c0dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fG1pbmltYWxpc3R8ZW58MHx8MHx8fDA%3D",
+    image: "/sushi/cantonese_rise.jpeg",
     defaultPos: { x: 8, y: 4, w: 4, h: 4 },
     isHovered: false,
   },
   {
     id: 7,
-    image:
-      "https://images.unsplash.com/photo-1546098073-e1df70b3bc7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjN8fG1pbmltYWxpc3R8ZW58MHx8MHx8fDA%3D",
+    image: "/sushi/chirashi.jpeg",
     defaultPos: { x: 0, y: 8, w: 4, h: 4 },
     isHovered: false,
   },
   {
     id: 8,
-    image:
-      "https://images.unsplash.com/photo-1467139840664-96b244a66825?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fHJhbmRvbXxlbnwwfHwwfHx8MA%3D%3D",
+    image: "/sushi/soup.jpeg",
     defaultPos: { x: 4, y: 8, w: 4, h: 4 },
     isHovered: false,
   },
   {
     id: 9,
-    image:
-      "https://images.unsplash.com/photo-1524369609384-10ce89e42d14?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fHJhbmRvbXxlbnwwfHwwfHx8MA%3D%3D",
+    image: "/sushi/temaki.jpeg",
     defaultPos: { x: 8, y: 8, w: 4, h: 4 },
     isHovered: false,
   },
