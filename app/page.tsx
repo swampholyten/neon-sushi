@@ -21,7 +21,7 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="h-px w-full" />
                 <p>
-                  Welcome to Next Sushi, an elegant sanctuary where the art of
+                  Welcome to Neon Sushi, an elegant sanctuary where the art of
                   Japanese cuisine meets modern dining. Step into our serene
                   space adorned with minimalist décor, warm bamboo elements, and
                   the rhythmic precision of our master sushi chefs.
@@ -33,7 +33,7 @@ export default function Home() {
                   exploring our extensive all-you-can-eat menu.
                 </p>
                 <p>
-                  Next Sushi invites you to immerse yourself in an unlimited
+                  Neon Sushi invites you to immerse yourself in an unlimited
                   journey of flavors, where traditional meets contemporary in
                   every carefully crafted bite.
                 </p>
@@ -45,7 +45,7 @@ export default function Home() {
                 className="w-8 h-8 relative opacity-80 hover:opacity-100 transition-opacity"
               >
                 <Image
-                  src="/logo.png"
+                  src="/logo.svg"
                   alt="Logo"
                   fill
                   className="object-contain"

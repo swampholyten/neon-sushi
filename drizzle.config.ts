@@ -2,9 +2,17 @@ import "dotenv/config";
 
 import { defineConfig } from "drizzle-kit";
 
-const DATABASE_URL = process.env.DATABASE_URL;
+const isDevelopment = process.env.NODE_ENV !== "production";
+const DATABASE_URL = isDevelopment
+  ? process.env.DATABASE_URL
+  : process.env.PRODUCTION_DATABASE_URL;
+
 if (!DATABASE_URL) {
-  throw new Error("DATABASE_URL is not defined in .env");
+  throw new Error(
+    isDevelopment
+      ? "DATABASE_URL is not defined in .env"
+      : "PRODUCTION_DATABASE_URL is not defined in .env"
+  );
 }
 
 export default defineConfig({

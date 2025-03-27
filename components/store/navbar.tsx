@@ -13,7 +13,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-10 border-b">
       <div className="flex h-16 items-center justify-between px-4 md:px-6">
         <div className="flex items-center gap-2">
-          <h1 className="text-xl tracking-tighter sm:text-2xl">Next Sushi</h1>
+          <h1 className="text-xl tracking-tighter sm:text-2xl">Neon Sushi</h1>
         </div>
         <div className="flex items-center gap-4">
           <Suspense fallback={<Skeleton />}>

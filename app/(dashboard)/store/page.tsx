@@ -33,7 +33,7 @@ const StorePage = () => {
         <div className="flex flex-col gap-4 px-4 py-6 md:flex-row md:items-center md:gap-8 md:px-6 md:py-8">
           <div className="flex-1 text-center md:text-left">
             <p className="text-sm text-gray-500">
-              © {new Date().getFullYear()} Next Sushi. All rights reserved.
+              © {new Date().getFullYear()} Neon Sushi. All rights reserved.
             </p>
           </div>
         </div>
