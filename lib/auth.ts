@@ -1,11 +1,10 @@
-import { config } from "dotenv";
+import "dotenv/config";
+
 import { betterAuth } from "better-auth";
 import { drizzleAdapter } from "better-auth/adapters/drizzle";
 import { db } from "./db";
 import * as schema from "@/lib/db/schema";
 import { nextCookies } from "better-auth/next-js";
-
-config({ path: ".env.local" });
 
 const { GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET } = process.env;
 if (!GITHUB_CLIENT_ID || !GITHUB_CLIENT_SECRET) {
