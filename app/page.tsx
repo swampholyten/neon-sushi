@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ModeToggle } from "@/components/mode-toggle";
 import { DynamicImagesLayout } from "@/components/landing/dynamic-image-layout";
+import { MenuToggle } from "@/components/menu/menu";
 
 export default function Home() {
   return (
@@ -51,11 +52,12 @@ export default function Home() {
                   className="object-contain"
                 />
               </Link>
+              <MenuToggle />
               <ModeToggle />
             </div>
           </div>
           <Link
-            href="/login"
+            href="/store"
             className="inline-block px-6 py-3 border rounded-full font-medium hover:bg-foreground/5 transition-colors text-center w-full max-w-[260px] text-sm mt-16"
           >
             Start

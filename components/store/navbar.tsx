@@ -5,6 +5,7 @@ import { SearchButton } from "@/components/store/search-button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { getCategories, getProducts } from "@/lib/db/queries";
 import { Suspense } from "react";
+import { MenuToggle } from "@/components/menu/menu";
 
 const Navbar = () => {
   const productsPromise = getProducts();
@@ -26,8 +27,9 @@ const Navbar = () => {
               productsPromise={productsPromise}
               categoriesPromise={categoriesPromise}
             />
-            <ModeToggle />
           </Suspense>
+          <MenuToggle />
+          <ModeToggle />
           <CartSheet />
         </div>
       </div>

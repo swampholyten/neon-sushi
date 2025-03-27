@@ -1,5 +1,5 @@
 import Game2048 from "@/components/dashboard/2048";
-import { ModeToggle } from "@/components/mode-toggle";
+import Navbar from "@/components/store/navbar";
 import { auth } from "@/lib/auth";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
@@ -13,7 +13,7 @@ const Dashboard = async () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <ModeToggle />
+      <Navbar />
       <Game2048 />
     </div>
   );
