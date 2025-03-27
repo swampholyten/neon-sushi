@@ -56,7 +56,7 @@ export function SushiMenu({
       quantity: 1,
     });
 
-    toast.success(`${product.name} has been added to your cart.`);
+    toast.success(`${formatWord(product.name)} has been added to your cart.`);
 
     debouncedAddProductRef.current(product);
   };
@@ -121,8 +121,7 @@ export function SushiMenu({
               {categoryProducts.map((product) => (
                 <Card key={product.id} className="overflow-hidden">
                   <Image
-                    // src={product.image || "/placeholder.svg"}
-                    src={"/sushi/nigiri.jpeg"}
+                    src={product.image || "/placeholder.svg"}
                     alt={product.name}
                     width={300}
                     height={300}

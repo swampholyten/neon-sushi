@@ -114,7 +114,14 @@ export const CartSheet = () => {
         <SheetHeader>
           <SheetTitle>
             <div className="flex justify-start items-center gap-4">
-              <Fish weight="duotone" className="size-6" />
+              <div className="size-8 relative">
+                <Image
+                  src="/logo.svg"
+                  alt="Logo"
+                  fill
+                  className="object-contain"
+                />
+              </div>
               <span className="text-xl">Your Cart</span>
             </div>
           </SheetTitle>
@@ -136,8 +143,7 @@ export const CartSheet = () => {
                   <div key={item.productId} className="flex items-start gap-3">
                     <div className="w-16 h-16 rounded overflow-hidden flex-shrink-0">
                       <Image
-                        // src={item.image || "/placeholder.svg"}
-                        src={"/sushi/nigiri.jpeg"}
+                        src={item.image || "/placeholder.svg"}
                         alt={item.name}
                         width={64}
                         height={64}
@@ -153,7 +159,7 @@ export const CartSheet = () => {
                           ${(Number(item.price) * item.quantity).toFixed(2)}
                         </div>
                       </div>
-                      <div className="text-sm text-muted-foreground">
+                      <div className="text-muted-foreground">
                         ${Number(item.price).toFixed(2)} each
                       </div>
                       <div className="flex items-center gap-2">

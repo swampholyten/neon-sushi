@@ -17,7 +17,7 @@ export function ModeToggle() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon">
+        <Button variant="outline" size="icon">
           {theme === "dark" ? (
             <MoonStars weight="duotone" />
           ) : (

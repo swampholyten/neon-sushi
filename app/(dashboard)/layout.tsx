@@ -4,7 +4,7 @@ import { ReactNode } from "react";
 const DashboardLayout = ({ children }: { children: ReactNode }) => {
   return (
     <>
-      <CartProvider>{children}</CartProvider>; ;
+      <CartProvider>{children}</CartProvider>
     </>
   );
 };

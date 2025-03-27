@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { use, useEffect, useRef, useState } from "react";
 import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -64,7 +65,7 @@ export const SearchButton = ({
       quantity: 1,
     });
 
-    toast.success(`${product.name} has been added to your cart.`);
+    toast.success(`${formatWord(product.name)} has been added to your cart.`);
     setOpen(false);
 
     debouncedAddProductRef.current(product);
@@ -99,7 +100,15 @@ export const SearchButton = ({
                     className="flex items-center justify-between text-xs md:text-sm"
                   >
                     <div className="flex justify-center items-center gap-3">
-                      <Fish />
+                      <div className="size-14 rounded overflow-hidden flex-shrink-0">
+                        <Image
+                          src={product.image || "/placeholder.svg"}
+                          alt={product.name}
+                          width={64}
+                          height={64}
+                          className="h-full w-full object-cover"
+                        />
+                      </div>
                       <span>{formatWord(formatWord(product.name))}</span>
                       <span className="ml-2 text-muted-foreground">
                         ${product.price}
