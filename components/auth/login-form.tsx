@@ -74,7 +74,7 @@ export const LoginForm = () => {
   return isLoading ? (
     <LoginFormSkeleton />
   ) : (
-    <Card className="w-full">
+    <Card className="w-full rounded-none md:rounded-md">
       <CardHeader>
         <CardTitle className="text-2xl font-bold text-center">Login</CardTitle>
         <CardDescription className="text-center">

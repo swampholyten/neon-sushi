@@ -93,7 +93,7 @@ export const SignupForm = () => {
   return isLoading ? (
     <SignupFormSkeleton />
   ) : (
-    <Card className="w-full">
+    <Card className="w-full rounded-none md:rounded-md">
       <CardHeader>
         <CardTitle className="text-2xl font-bold text-center">
           Sign Up

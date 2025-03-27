@@ -13,7 +13,7 @@ import { Separator } from "@/components/ui/separator";
 
 export const SignupFormSkeleton = () => {
   return (
-    <Card className="w-full max-w-md mx-auto animate-pulse">
+    <Card className="w-full max-w-md mx-auto animate-pulse rounded-none md:rounded-md">
       <CardHeader>
         <CardTitle className="text-2xl font-bold text-center">
           <Skeleton className="h-8 w-40 mx-auto" />
