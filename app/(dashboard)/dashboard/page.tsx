@@ -11,12 +11,7 @@ const Dashboard = async () => {
     redirect("/login");
   }
 
-  return (
-    <div className="min-h-screen flex flex-col">
-      <Navbar />
-      <Game2048 />
-    </div>
-  );
+  return <Game2048 />;
 };
 
 export default Dashboard;

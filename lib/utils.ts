@@ -37,12 +37,27 @@ export const formatWord = (str: string): string => {
   }
 
   return str
-    .split(/\s+/)
-    .map((word) => {
-      if (word.length === 0) {
-        return "";
-      }
-      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-    })
+    .replace(/ *\([^)]*\) */g, "")
+    .trim()
+    .split(" ")
+    .map((word) => word[0].toUpperCase() + word.slice(1).toLowerCase())
+    .join(" ");
+};
+
+// Helper function to convert product name to slug
+export const nameToSlug = (name: string): string => {
+  return name
+    .toLowerCase()
+    .replace(/\([^)]*\)/g, "") // Remove anything in parentheses
+    .trim()
+    .replace(/\s+/g, "-") // Replace spaces with hyphens
+    .replace(/[^\w-]/g, ""); // Remove special characters
+};
+
+// Helper function to convert slug back to display name
+export const slugToDisplayName = (slug: string): string => {
+  return slug
+    .split("-")
+    .map((word) => word.toUpperCase())
     .join(" ");
 };

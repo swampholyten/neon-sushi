@@ -13,7 +13,8 @@ import {
 import { headers } from "next/headers";
 import { nanoid } from "nanoid";
 import { redirect } from "next/navigation";
-import { and, eq } from "drizzle-orm";
+import { and, eq, ne, like } from "drizzle-orm";
+import { slugToDisplayName } from "@/lib/utils";
 
 const authenticate = async (): Promise<string> => {
   const session = await auth.api.getSession({ headers: await headers() });
@@ -150,4 +151,34 @@ export const updateCartItemQuantity = async (
     .returning();
 
   return result[0];
+};
+
+export const getProductBySlug = async (
+  slug: string
+): Promise<Product | undefined> => {
+  await authenticate();
+
+  const originalName = slugToDisplayName(slug);
+
+  const result = await db
+    .select()
+    .from(product)
+    .where(like(product.name, `${originalName}%`));
+
+  return result[0];
+};
+
+export const getRelatedProducts = async (
+  categoryId: string,
+  productId: string
+): Promise<Product[]> => {
+  await authenticate();
+
+  const result = await db
+    .select()
+    .from(product)
+    .where(and(eq(product.categoryId, categoryId), ne(product.id, productId)))
+    .limit(4);
+
+  return result;
 };

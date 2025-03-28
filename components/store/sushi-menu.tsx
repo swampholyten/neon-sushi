@@ -19,9 +19,10 @@ import { toast } from "sonner";
 import { Category, Product } from "@/lib/db/schema";
 import { addProductToCart } from "@/lib/db/queries";
 import { useCart } from "@/components/providers/cart-provider";
-import { formatWord } from "@/lib/utils";
+import { formatWord, nameToSlug } from "@/lib/utils";
 import debounce from "lodash.debounce";
 import { DEBOUNCE_TIME } from "@/lib/constants";
+import Link from "next/link";
 
 interface CategoryHeader {
   type: "category";
@@ -166,19 +167,21 @@ export function SushiMenu({
           key={`prod-${product.id}-${index}`}
           className="overflow-hidden flex flex-col"
         >
-          <Image
-            src={product.image || "/placeholder.svg"}
-            alt={product.name}
-            width={300}
-            height={300}
-            className="aspect-square object-cover w-full"
-          />
-          <CardContent className="p-4 flex-grow">
-            <h5 className="font-semibold">{formatWord(product.name)}</h5>
-            <p className="text-sm text-gray-500 line-clamp-2">
-              {product.description}
-            </p>
-          </CardContent>
+          <Link href={`/store/${nameToSlug(product.name)}`}>
+            <Image
+              src={product.image || "/placeholder.svg"}
+              alt={product.name}
+              width={300}
+              height={300}
+              className="aspect-square object-cover w-full"
+            />
+            <CardContent className="p-4 flex-grow">
+              <h5 className="font-semibold">{formatWord(product.name)}</h5>
+              <p className="text-sm text-gray-500 line-clamp-2">
+                {product.description}
+              </p>
+            </CardContent>
+          </Link>
           <CardFooter className="p-4 pt-0 flex justify-between items-center mt-auto">
             <span className="font-semibold">${product.price}</span>
             <Button onClick={() => handleAddToCart(product)} size="sm">
