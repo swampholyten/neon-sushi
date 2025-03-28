@@ -18,7 +18,8 @@ import { addProductToCart } from "@/lib/db/queries";
 import { useCart } from "@/components/providers/cart-provider";
 import { formatWord } from "@/lib/utils";
 import debounce from "lodash.debounce";
-import { Fish, ShoppingCart } from "@phosphor-icons/react";
+import { ShoppingCart } from "@phosphor-icons/react";
+import { DEBOUNCE_TIME } from "@/lib/constants";
 
 export const SearchButton = ({
   productsPromise,
@@ -38,9 +39,9 @@ export const SearchButton = ({
       try {
         await addProductToCart(product);
       } catch (error) {
-        console.error("Add product to cart failed:", error);
+        console.error("Debounced add product to cart failed:", error);
       }
-    }, 1000)
+    }, DEBOUNCE_TIME)
   );
 
   useEffect(() => {

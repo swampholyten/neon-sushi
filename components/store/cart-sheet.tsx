@@ -22,8 +22,8 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
-import { Fish } from "@phosphor-icons/react";
 import { formatWord } from "@/lib/utils";
+import { DEBOUNCE_TIME } from "@/lib/constants";
 
 export const CartSheet = () => {
   const {
@@ -52,11 +52,10 @@ export const CartSheet = () => {
     debounce(async (productId: string, quantity: number) => {
       try {
         await updateCartItemQuantity(productId, quantity);
-        // updateQuantity(productId, quantity);
       } catch (error) {
-        console.error("Update failed:", error);
+        console.error("Debounced update failed:", error);
       }
-    }, 1000)
+    }, DEBOUNCE_TIME)
   );
 
   const handleUpdateQuantity = (productId: string, quantity: number) => {

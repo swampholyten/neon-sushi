@@ -92,16 +92,16 @@ export const MenuToggle = () => {
       category: "Sushi & Section",
     },
     {
-      href: "/signup",
-      label: "SIGN UP",
-      image: "/sushi/uramaki.jpeg",
-      category: "Account Creation",
-    },
-    {
       href: "/login",
       label: "LOGIN",
       image: "/sushi/sashimi.jpeg",
       category: "Account Access",
+    },
+    {
+      href: "/signup",
+      label: "SIGN UP",
+      image: "/sushi/uramaki.jpeg",
+      category: "Account Creation",
     },
   ];
 
@@ -153,7 +153,7 @@ export const MenuToggle = () => {
                       <motion.div
                         className="absolute bottom-0 h-px w-0 bg-black dark:bg-white"
                         animate={{ width: activeIndex === i ? "100%" : "0%" }}
-                        transition={{ duration: 0.7, ease: "easeInOut" }}
+                        transition={{ duration: 0.6, ease: "easeInOut" }}
                       />
                     </div>
                   </motion.a>
