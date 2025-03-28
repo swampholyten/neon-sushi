@@ -1,4 +1,4 @@
-import { MenuToggle } from "@/components/menu/menu";
+import { MenuToggle } from "@/components/menu/menu-toggle";
 import React from "react";
 
 const Page = () => {

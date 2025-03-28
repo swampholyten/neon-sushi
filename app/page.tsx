@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ModeToggle } from "@/components/mode-toggle";
 import { DynamicImagesLayout } from "@/components/landing/dynamic-image-layout";
-import { MenuToggle } from "@/components/menu/menu";
+import { MenuToggle } from "@/components/menu/menu-toggle";
 
 export default function Home() {
   return (

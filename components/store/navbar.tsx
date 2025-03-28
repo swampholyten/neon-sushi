@@ -5,7 +5,7 @@ import { SearchButton } from "@/components/store/search-button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { getCategories, getProducts } from "@/lib/db/queries";
 import { Suspense } from "react";
-import { MenuToggle } from "@/components/menu/menu";
+import { MenuToggle } from "@/components/menu/menu-toggle";
 import SignOutButton from "@/components/auth/sign-out-button";
 import Link from "next/link";
 

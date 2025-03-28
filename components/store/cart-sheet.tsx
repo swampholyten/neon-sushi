@@ -24,6 +24,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
 import { formatWord } from "@/lib/utils";
 import { DEBOUNCE_TIME } from "@/lib/constants";
+import Link from "next/link";
 
 export const CartSheet = () => {
   const {
@@ -226,9 +227,11 @@ export const CartSheet = () => {
                 </div>
               </div>
               <SheetFooter className="flex flex-col gap-2 sm:flex-col">
-                <Button className="w-full" size="lg">
-                  Checkout
-                </Button>
+                <Link href={"/checkout"}>
+                  <Button className="w-full" size="lg">
+                    Checkout
+                  </Button>
+                </Link>
                 <Button
                   variant="outline"
                   size="sm"

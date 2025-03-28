@@ -75,13 +75,13 @@ export const MenuToggle = () => {
   const links: NavLink[] = [
     {
       href: "/",
-      label: "HOME",
+      label: "Home",
       image: "/sushi/onigiri.jpeg",
       category: "Main Navigation",
     },
     {
       href: "/dashboard",
-      label: "DASHBOARD",
+      label: "Dashboard",
       image: "/sushi/nigiri.jpeg",
       category: "User Area",
     },
@@ -93,13 +93,13 @@ export const MenuToggle = () => {
     },
     {
       href: "/login",
-      label: "LOGIN",
+      label: "Login",
       image: "/sushi/sashimi.jpeg",
       category: "Account Access",
     },
     {
       href: "/signup",
-      label: "SIGN UP",
+      label: "Sign Up",
       image: "/sushi/uramaki.jpeg",
       category: "Account Creation",
     },

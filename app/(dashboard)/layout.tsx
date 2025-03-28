@@ -6,7 +6,7 @@ const DashboardLayout = ({ children }: { children: ReactNode }) => {
   return (
     <>
       <CartProvider>
-        <div className="min-h-screen flex flex-col">
+        <div className="h-screen flex flex-col">
           <Navbar />
           {children}
           <footer className="border-t">
