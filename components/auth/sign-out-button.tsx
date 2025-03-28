@@ -5,7 +5,6 @@ import { authClient } from "@/lib/auth-client";
 import { SignOut } from "@phosphor-icons/react";
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
-import { ScaleLoader } from "react-spinners";
 import { toast } from "sonner";
 
 const SignOutButton = () => {
