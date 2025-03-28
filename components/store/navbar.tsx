@@ -22,7 +22,8 @@ const Navbar = () => {
               <Image
                 src="/icon.png"
                 alt="Logo"
-                fill
+                width={500}
+                height={500}
                 className="object-contain"
               />
             </div>

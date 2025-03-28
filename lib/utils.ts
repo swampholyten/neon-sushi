@@ -26,7 +26,7 @@ export const fetchCallback = ({
     },
     onSuccess: () => {
       onSuccess();
-      redirect("/store");
+      redirect("/products");
     },
   };
 };

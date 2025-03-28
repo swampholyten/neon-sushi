@@ -9,6 +9,7 @@ import { RelatedProducts } from "@/components/menu/related-products";
 import { formatWord } from "@/lib/utils";
 import { ArrowLeft } from "@phosphor-icons/react/dist/ssr";
 import { RelatedProductsSkeleton } from "@/components/skeletons/related-products-skeleton";
+import { AddToCartButton } from "@/components/menu/add-to-cart-button";
 
 const ProductPage = async ({
   params,
@@ -27,7 +28,7 @@ const ProductPage = async ({
     <div className="min-h-screen flex justify-center">
       <main className="container px-4 py-6 md:px-6 md:py-12">
         <Link
-          href="/store"
+          href="/products"
           className="text-muted-foreground hover:underline flex gap-1 items-center mb-4"
         >
           <ArrowLeft className="size-4" />
@@ -42,7 +43,6 @@ const ProductPage = async ({
               width={600}
               height={600}
               className="w-full h-full object-cover"
-              priority
             />
           </div>
           <div className="flex flex-col gap-4">
@@ -59,8 +59,12 @@ const ProductPage = async ({
             </div>
             <Separator className="my-4" />
 
-            <div>
+            <div className="flex flex-col gap-2 flex-1">
               <p>{product.description}</p>
+            </div>
+
+            <div className="flex justify-end">
+              <AddToCartButton product={product} />
             </div>
           </div>
         </div>

@@ -86,8 +86,8 @@ export const MenuToggle = () => {
       category: "User Area",
     },
     {
-      href: "/store",
-      label: "STORE",
+      href: "/products",
+      label: "Products",
       image: "/sushi/soup.jpeg",
       category: "Sushi & Section",
     },

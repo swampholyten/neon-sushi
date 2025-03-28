@@ -19,6 +19,7 @@ export type CartState = {
   updateItemQuantity: (productId: string, quantity: number) => void;
   clear: () => void;
   updateTotals: () => void;
+  getItems: () => string[];
 };
 
 export const useCartStore = create<CartState>((set, get) => ({
@@ -74,4 +75,5 @@ export const useCartStore = create<CartState>((set, get) => ({
     );
     set({ totalItems: newTotalItems, totalPrice: newTotalPrice });
   },
+  getItems: () => get().cartItems.map((item) => item.productId),
 }));

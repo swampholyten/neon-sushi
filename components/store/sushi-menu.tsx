@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, use, useRef, useMemo, useEffect } from "react";
+import { useState, use, useMemo, useEffect } from "react";
 import { ChevronDown } from "lucide-react";
 import Image from "next/image";
-import InfiniteScroll from "react-infinite-scroll-component"; // Import the library
+import InfiniteScroll from "react-infinite-scroll-component";
+import { motion } from "framer-motion";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
@@ -15,14 +16,10 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Badge } from "@/components/ui/badge";
-import { toast } from "sonner";
 import { Category, Product } from "@/lib/db/schema";
-import { addProductToCart } from "@/lib/db/queries";
-import { useCart } from "@/components/providers/cart-provider";
 import { formatWord, nameToSlug } from "@/lib/utils";
-import debounce from "lodash.debounce";
-import { DEBOUNCE_TIME } from "@/lib/constants";
 import Link from "next/link";
+import { AddToCartButton } from "@/components/menu/add-to-cart-button";
 
 interface CategoryHeader {
   type: "category";
@@ -45,28 +42,19 @@ interface SushiMenuProps {
   categoriesPromise: Promise<Category[]>;
 }
 
+const MotionCard = motion.create(Card);
+
 export function SushiMenu({
   productsPromise,
   categoriesPromise,
 }: SushiMenuProps) {
   const products = use(productsPromise);
   const categories = use(categoriesPromise);
-  const { addItem } = useCart((state) => ({ addItem: state.addItem }));
 
   const [filter, setFilter] = useState("all");
   const [displayedItems, setDisplayedItems] = useState<MenuItem[]>([]);
   const [hasMore, setHasMore] = useState(true);
   const [page, setPage] = useState(1);
-
-  const debouncedAddProductRef = useRef(
-    debounce(async (product: Product) => {
-      try {
-        await addProductToCart(product);
-      } catch (error) {
-        console.error("Debounced add product to cart failed:", error);
-      }
-    }, DEBOUNCE_TIME)
-  );
 
   const filteredProducts = useMemo(() => {
     if (filter === "all") {
@@ -126,23 +114,6 @@ export function SushiMenu({
     }, 500); // Small delay to show loader, adjust as needed
   };
 
-  // --- Event Handlers ---
-  const handleAddToCart = (product: Product) => {
-    // Optimistic UI update
-    addItem({
-      productId: product.id,
-      name: product.name,
-      description: product.description,
-      price: Number(product.price),
-      image: product.image,
-      quantity: 1,
-    });
-
-    toast.success(`${formatWord(product.name)} has been added to your cart.`);
-
-    debouncedAddProductRef.current(product);
-  };
-
   // --- Render Logic ---
   const renderItem = (item: MenuItem, index: number) => {
     if (item.type === "category") {
@@ -163,11 +134,13 @@ export function SushiMenu({
     } else if (item.type === "product") {
       const product = item.product;
       return (
-        <Card
+        <MotionCard
           key={`prod-${product.id}-${index}`}
           className="overflow-hidden flex flex-col"
+          whileHover={{ scale: 1.05 }}
+          transition={{ type: "tween", stiffness: 100 }}
         >
-          <Link href={`/store/${nameToSlug(product.name)}`}>
+          <Link href={`/products/${nameToSlug(product.name)}`}>
             <Image
               src={product.image || "/placeholder.svg"}
               alt={product.name}
@@ -184,11 +157,9 @@ export function SushiMenu({
           </Link>
           <CardFooter className="p-4 pt-0 flex justify-between items-center mt-auto">
             <span className="font-semibold">${product.price}</span>
-            <Button onClick={() => handleAddToCart(product)} size="sm">
-              Add to Cart
-            </Button>
+            <AddToCartButton product={product} />
           </CardFooter>
-        </Card>
+        </MotionCard>
       );
     }
     return null;

@@ -136,7 +136,7 @@ export const CartSheet = () => {
           </div>
         ) : (
           <>
-            <ScrollArea className="h-[75%] px-4">
+            <ScrollArea className="h-[70%] px-4">
               <div className="space-y-4 py-4">
                 {cart.map((item) => (
                   <div key={item.productId} className="flex items-start gap-3">
