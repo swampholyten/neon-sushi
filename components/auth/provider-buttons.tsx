@@ -14,6 +14,7 @@ const GithubOauthButton = () => {
       <Button
         variant="outline"
         className="w-full mt-4 flex items-center gap-2"
+        disabled={isLoading}
         onClick={async () => {
           await authClient.signIn.social({
             provider: "github",
@@ -29,6 +30,7 @@ const GithubOauthButton = () => {
       <Button
         variant="outline"
         className="w-full mt-4 flex items-center gap-2"
+        disabled={isLoading}
         onClick={async () => {
           await authClient.signIn.anonymous({
             fetchOptions: fetchCallback({

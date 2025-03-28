@@ -26,7 +26,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { authClient } from "@/lib/auth-client";
-import GithubOauthButton from "./github-button";
+import GithubOauthButton from "./provider-buttons";
 import { fetchCallback } from "@/lib/utils";
 import { SignupFormSkeleton } from "@/components/skeletons/signup-form-skeleton";
 import { toast } from "sonner";

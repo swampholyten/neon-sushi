@@ -25,7 +25,7 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
-import GithubOauthButton from "./github-button";
+import GithubOauthButton from "./provider-buttons";
 import { authClient } from "@/lib/auth-client";
 import { fetchCallback } from "@/lib/utils";
 import { LoginFormSkeleton } from "@/components/skeletons/login-form-skeleton";
