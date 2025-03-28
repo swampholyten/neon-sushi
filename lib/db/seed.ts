@@ -167,8 +167,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -180,8 +178,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -193,8 +189,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -206,8 +200,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -219,8 +211,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -232,8 +222,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -245,8 +233,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -257,8 +243,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -269,8 +253,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -281,8 +263,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -294,8 +274,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -306,8 +284,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -318,8 +294,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
 
     // ANTIPASTO (Page 3, 4, 5)
@@ -333,8 +307,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -346,8 +318,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -359,8 +329,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -372,8 +340,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -385,8 +351,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -398,8 +362,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -411,8 +373,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -424,8 +384,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -437,8 +395,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -449,8 +405,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -462,8 +416,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -475,8 +427,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -488,8 +438,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -500,8 +448,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -512,8 +458,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -524,8 +468,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -536,8 +478,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -548,8 +488,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -560,8 +498,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -573,8 +509,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -586,8 +520,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
 
     // INSALATE E ZUPPE (Page 5)
@@ -601,8 +533,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -614,8 +544,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -626,8 +554,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -638,8 +564,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -650,8 +574,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -662,8 +584,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
 
     // BENTO E TATAKI (Page 6)
@@ -676,8 +596,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -688,8 +606,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -700,8 +616,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -712,8 +626,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -724,8 +636,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -736,8 +646,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -748,8 +656,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
 
     // HOSOMAKI (Page 7)
@@ -762,8 +668,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -774,8 +678,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -786,8 +688,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -798,8 +698,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -810,8 +708,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -822,8 +718,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -835,8 +729,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -848,8 +740,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -861,8 +751,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -874,8 +762,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
 
     // FUTOMAKI (Page 8)
@@ -888,8 +774,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -900,8 +784,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -913,8 +795,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -925,8 +805,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -937,8 +815,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -950,8 +826,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
 
     // TEMAKI (Page 9)
@@ -964,8 +838,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -976,8 +848,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -988,8 +858,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1000,8 +868,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1012,8 +878,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1024,8 +888,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1036,8 +898,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1048,8 +908,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1060,8 +918,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
 
     // URAMAKI (Page 10 & 11)
@@ -1074,8 +930,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1086,8 +940,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1098,8 +950,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1110,8 +960,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1122,8 +970,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1134,8 +980,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1146,8 +990,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1158,8 +1000,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1170,8 +1010,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1182,8 +1020,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1194,8 +1030,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1206,8 +1040,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1218,8 +1050,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1231,8 +1061,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1244,8 +1072,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
 
     // URAMAKI SPECIAL (Page 12 & 13)
@@ -1258,8 +1084,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1271,8 +1095,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1284,8 +1106,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1297,8 +1117,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1310,8 +1128,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1323,8 +1139,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1335,8 +1149,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1347,8 +1159,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1359,8 +1169,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1371,8 +1179,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1384,8 +1190,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1396,8 +1200,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1408,8 +1210,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1420,8 +1220,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1433,8 +1231,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1446,8 +1242,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
 
     // NIGIRI (Page 14 & 15)
@@ -1460,8 +1254,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1472,8 +1264,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1484,8 +1274,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1496,8 +1284,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1508,8 +1294,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1520,8 +1304,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1532,8 +1314,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1544,8 +1324,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1556,8 +1334,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1568,8 +1344,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1581,8 +1355,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1594,8 +1366,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1607,8 +1377,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1620,8 +1388,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1633,8 +1399,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1645,8 +1409,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
 
     // GUNKAN (Page 16)
@@ -1659,8 +1421,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1671,8 +1431,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1683,8 +1441,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1695,8 +1451,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1707,8 +1461,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1719,8 +1471,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1732,8 +1482,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1745,8 +1493,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
 
     // BIGNE (Page 17)
@@ -1759,8 +1505,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1771,8 +1515,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1783,8 +1525,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1795,8 +1535,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1807,8 +1545,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1819,8 +1555,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1831,8 +1565,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1843,8 +1575,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1855,8 +1585,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1867,8 +1595,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1879,8 +1605,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
 
     // CRUDI VARI (Page 18 & 19)
@@ -1894,8 +1618,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1907,8 +1629,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1920,8 +1640,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1933,8 +1651,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1945,8 +1661,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1957,8 +1671,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1970,8 +1682,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1983,8 +1693,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -1996,8 +1704,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2008,8 +1714,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2020,8 +1724,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2032,8 +1734,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2044,8 +1744,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
 
     // PRIMI (Page 20)
@@ -2058,8 +1756,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2070,8 +1766,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2082,8 +1776,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2094,8 +1786,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2106,8 +1796,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2118,8 +1806,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2130,8 +1816,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2142,8 +1826,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2155,8 +1837,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2168,8 +1848,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
 
     // SECONDI (Page 21 & 22)
@@ -2182,8 +1860,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2194,8 +1870,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2206,8 +1880,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2218,8 +1890,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     }, // 164A
     {
       id: generateProductId(),
@@ -2230,8 +1900,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2242,8 +1910,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2254,8 +1920,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2266,8 +1930,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2278,8 +1940,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     }, // 168A
     {
       id: generateProductId(),
@@ -2290,8 +1950,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2302,8 +1960,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2314,8 +1970,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2326,8 +1980,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2338,8 +1990,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2350,8 +2000,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
 
     // TEMPURA E FRITTI (Page 23)
@@ -2364,8 +2012,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2376,8 +2022,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2388,8 +2032,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2400,8 +2042,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2412,8 +2052,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2424,8 +2062,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2436,8 +2072,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2448,8 +2082,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2460,8 +2092,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2472,8 +2102,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2484,8 +2112,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     }, // 184A
 
     // TEPPAN (Page 24)
@@ -2498,8 +2124,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2510,8 +2134,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2522,8 +2144,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2534,8 +2154,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2546,8 +2164,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2558,8 +2174,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2570,8 +2184,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
     {
       id: generateProductId(),
@@ -2582,8 +2194,6 @@ const main = async () => {
       isAvailable: true,
       createdAt: now,
       updatedAt: now,
-      image:
-        "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1c2hpfGVufDB8fDB8fHww",
     },
   ]);
 
