@@ -43,10 +43,10 @@ export default function Home() {
             <div className="flex gap-4 justify-start items-center">
               <Link
                 href="/"
-                className="size-6 relative opacity-80 hover:opacity-100 transition-opacity"
+                className="size-9 relative opacity-80 hover:opacity-100 transition-opacity"
               >
                 <Image
-                  src="/logo.svg"
+                  src="/icon.png"
                   alt="Logo"
                   fill
                   className="object-contain"

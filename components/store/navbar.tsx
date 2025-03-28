@@ -16,21 +16,21 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-10 border-b bg-background/95">
       <div className="flex h-16 items-center justify-between px-4 md:px-6">
-        <Link href={"/"}>
-          <div className="flex items-center gap-4">
-            <div className="size-8 relative">
+        <div className="flex items-center gap-4">
+          <Link href={"/"}>
+            <div className="size-9 relative">
               <Image
-                src="/logo.svg"
+                src="/icon.png"
                 alt="Logo"
                 fill
                 className="object-contain"
               />
             </div>
-            <h1 className="text-xl tracking-tighter sm:text-2xl hidden md:block">
-              Neon Sushi
-            </h1>
-          </div>
-        </Link>
+          </Link>
+          <h1 className="text-xl tracking-tighter sm:text-2xl hidden md:block cursor-default items-end">
+            Neon Sushi
+          </h1>
+        </div>
 
         <div className="flex items-center gap-4">
           <Suspense fallback={<Skeleton />}>

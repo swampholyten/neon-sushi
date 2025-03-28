@@ -113,9 +113,9 @@ export const CartSheet = () => {
         <SheetHeader>
           <SheetTitle>
             <div className="flex justify-start items-center gap-4">
-              <div className="size-8 relative">
+              <div className="size-9 relative">
                 <Image
-                  src="/logo.svg"
+                  src="/icon.png"
                   alt="Logo"
                   fill
                   className="object-contain"
