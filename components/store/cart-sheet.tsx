@@ -110,7 +110,7 @@ export const CartSheet = () => {
           <span className="sr-only">Open cart</span>
         </Button>
       </SheetTrigger>
-      <SheetContent className="flex w-full flex-col sm:max-w-lg gap-0 text-xs md:text-sm justify-evenly">
+      <SheetContent className="flex w-full flex-col sm:max-w-md gap-0 text-xs md:text-sm justify-evenly">
         <SheetHeader>
           <SheetTitle>
             <div className="flex justify-start items-center gap-4">

@@ -6,6 +6,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { getCategories, getProducts } from "@/lib/db/queries";
 import { Suspense } from "react";
 import { MenuToggle } from "@/components/menu/menu";
+import SignOutButton from "@/components/auth/sign-out-button";
 
 const Navbar = () => {
   const productsPromise = getProducts();
@@ -18,7 +19,9 @@ const Navbar = () => {
           <div className="size-8 relative">
             <Image src="/logo.svg" alt="Logo" fill className="object-contain" />
           </div>
-          <h1 className="text-xl tracking-tighter sm:text-2xl">Neon Sushi</h1>
+          <h1 className="text-xl tracking-tighter sm:text-2xl hidden md:block">
+            Neon Sushi
+          </h1>
         </div>
 
         <div className="flex items-center gap-4">
@@ -31,6 +34,7 @@ const Navbar = () => {
           <MenuToggle />
           <ModeToggle />
           <CartSheet />
+          <SignOutButton />
         </div>
       </div>
     </header>

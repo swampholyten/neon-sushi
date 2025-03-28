@@ -1,6 +1,7 @@
 import "dotenv/config";
 
 import { betterAuth } from "better-auth";
+import { anonymous } from "better-auth/plugins";
 import { drizzleAdapter } from "better-auth/adapters/drizzle";
 import { db } from "./db";
 import * as schema from "@/lib/db/schema";
@@ -20,6 +21,7 @@ export const auth = betterAuth({
   }),
   emailAndPassword: {
     enabled: true,
+    autoSignIn: true,
   },
   socialProviders: {
     github: {
@@ -27,5 +29,5 @@ export const auth = betterAuth({
       clientSecret: GITHUB_CLIENT_SECRET,
     },
   },
-  plugins: [nextCookies()],
+  plugins: [nextCookies(), anonymous()],
 });
