@@ -4,11 +4,18 @@ import { authClient } from "@/lib/auth-client";
 import { Button } from "../ui/button";
 import { Ghost, GithubLogo } from "@phosphor-icons/react";
 import { fetchCallback } from "@/lib/utils";
-import { useState } from "react";
 import { toast } from "sonner";
+import { Dispatch, SetStateAction } from "react";
 
-const GithubOauthButton = () => {
-  const [isLoading, setIsLoading] = useState(false);
+interface ProviderButtonsProps {
+  isLoading: boolean;
+  setIsLoading: Dispatch<SetStateAction<boolean>>;
+}
+
+export const ProviderButtons = ({
+  isLoading,
+  setIsLoading,
+}: ProviderButtonsProps) => {
   return (
     <>
       <Button
@@ -51,5 +58,3 @@ const GithubOauthButton = () => {
     </>
   );
 };
-
-export default GithubOauthButton;

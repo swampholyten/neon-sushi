@@ -25,13 +25,12 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
-import GithubOauthButton from "./provider-buttons";
+import { ProviderButtons } from "./provider-buttons";
 import { authClient } from "@/lib/auth-client";
 import { fetchCallback } from "@/lib/utils";
 import { LoginFormSkeleton } from "@/components/skeletons/login-form-skeleton";
 import { toast } from "sonner";
 import { ErrorContext } from "better-auth/client";
-import { getUserCart } from "@/lib/db/queries";
 import { At, Password } from "@phosphor-icons/react";
 
 const loginFormSchema = z.object({
@@ -156,7 +155,7 @@ export const LoginForm = () => {
             </div>
           </div>
 
-          <GithubOauthButton />
+          <ProviderButtons isLoading={isLoading} setIsLoading={setIsLoading} />
         </div>
       </CardContent>
       <CardFooter className="flex justify-center">

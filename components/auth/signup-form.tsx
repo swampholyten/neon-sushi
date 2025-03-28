@@ -26,7 +26,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { authClient } from "@/lib/auth-client";
-import GithubOauthButton from "./provider-buttons";
+import { ProviderButtons } from "./provider-buttons";
 import { fetchCallback } from "@/lib/utils";
 import { SignupFormSkeleton } from "@/components/skeletons/signup-form-skeleton";
 import { toast } from "sonner";
@@ -191,7 +191,7 @@ export const SignupForm = () => {
             </div>
           </div>
 
-          <GithubOauthButton />
+          <ProviderButtons isLoading={isLoading} setIsLoading={setIsLoading} />
         </div>
       </CardContent>
       <CardFooter className="flex justify-center">

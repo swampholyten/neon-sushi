@@ -1,10 +1,19 @@
 import { SushiMenuSkeleton } from "@/components/skeletons/sushi-menu-skeleton";
 import Navbar from "@/components/store/navbar";
 import { SushiMenu } from "@/components/store/sushi-menu";
+import { auth } from "@/lib/auth";
 import { getCategories, getProducts } from "@/lib/db/queries";
+import { headers } from "next/headers";
+import { redirect } from "next/navigation";
 import { Suspense } from "react";
 
-const StorePage = () => {
+const StorePage = async () => {
+  const session = await auth.api.getSession({ headers: await headers() });
+
+  if (!session) {
+    redirect("/login");
+  }
+
   const productsPromise = getProducts();
   const categoriesPromise = getCategories();
   return (
