@@ -14,7 +14,7 @@ export default function Home() {
             <h1
               className={`text-5xl md:text-6xl font-light italic tracking-tighter leading-[130%]`}
             >
-              Next Store
+              Neon Sushi
             </h1>
             <div
               className={`flex flex-col gap-12 text-sm md:text-base font-light max-w-[300px]`}
